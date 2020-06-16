@@ -9,6 +9,7 @@ import Macaroni from "../../assets/GRAINS/macaroni.jpeg";
 import Oatmeal from "../../assets/GRAINS/oatmeal.jpeg";
 import Rice from "../../assets/GRAINS/rice.jpeg";
 
+import ProductName from './productName';
 
 class Grains extends Component {
   render() {
@@ -17,30 +18,39 @@ class Grains extends Component {
       <div className="fruit-container">
         <div className="fruit-border">
           <img src={Bagel} className="fruit-image" />
+          <ProductName name="Bagel" />
         </div>
         <div className="fruit-border">
           <img src={Bread} className="fruit-image"/>
+          <ProductName name="Bread" />
         </div>
         <div className="fruit-border">
           <img src={Cereal} className="fruit-image"/>
+          <ProductName name="Cereal" />
         </div>
         <div className="fruit-border">
           <img src={Creacker} className="fruit-image"/>
+          <ProductName name="Crackers" />
         </div>
         <div className="fruit-border">
           <img src={Crosant} className="fruit-image"/>
+          <ProductName name="Crossant" />
         </div>
         <div className="fruit-border">
           <img src={Granola} className="fruit-image"/>
+          <ProductName name="Granola" />
         </div>
         <div className="fruit-border">
           <img src={Macaroni} className="fruit-image"/>
+          <ProductName name="Macaroni" />
         </div>
         <div className="fruit-border">
           <img src={Oatmeal} className="fruit-image"/>
+          <ProductName name="Oatmeal" />
         </div>
         <div className="fruit-border">
           <img src={Rice} className="fruit-image"/>
+          <ProductName name="Rice" />
         </div>
       </div>
     )

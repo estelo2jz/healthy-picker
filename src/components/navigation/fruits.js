@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import Apple from "../../assets/FRUITS/apple.jpeg";
 import Apricot from "../../assets/FRUITS/apricot.jpeg";
 import Avocado from "../../assets/FRUITS/avocado.jpeg";
@@ -21,6 +22,7 @@ import Prach from "../../assets/FRUITS/prach.jpeg";
 import Straw from "../../assets/FRUITS/straw.jpeg";
 import Water from "../../assets/FRUITS/water.jpeg";
 
+import ProductName from './productName';
 
 class Fruits extends Component {
   render() {
@@ -29,66 +31,106 @@ class Fruits extends Component {
       <div className="fruit-container">
         <div className="fruit-border">
           <img src={Apple} className="fruit-image" />
+          <ProductName name="Apple" />
         </div>
         <div className="fruit-border">
           <img src={Apricot} className="fruit-image"/>
+          <ProductName name="Apricot" />
         </div>
         <div className="fruit-border">
           <img src={Avocado} className="fruit-image"/>
+          <ProductName name="Avocado" />
+
         </div>
         <div className="fruit-border">
           <img src={Banana} className="fruit-image"/>
+          <ProductName name="Banana" />
+
         </div>
         <div className="fruit-border">
           <img src={Blackberry} className="fruit-image"/>
+          <ProductName name="Blackberry" />
+
         </div>
         <div className="fruit-border">
           <img src={Blueberry} className="fruit-image"/>
+          <ProductName name="Blueberry" />
+
         </div>
         <div className="fruit-border">
           <img src={Cherry} className="fruit-image"/>
+          <ProductName name="Cherry" />
+
         </div>
         <div className="fruit-border">
           <img src={Coconut} className="fruit-image"/>
+          <ProductName name="Coconut" />
+
         </div>
         <div className="fruit-border">
           <img src={Fig} className="fruit-image"/>
+          <ProductName name="Fig" />
+
         </div>
         <div className="fruit-border">
           <img src={Kiwi} className="fruit-image"/>
+          <ProductName name="Kiwi" />
+
         </div>
         <div className="fruit-border">
           <img src={Leche} className="fruit-image"/>
+          <ProductName name="Leche" />
+
         </div>
         <div className="fruit-border">
           <img src={Lemon} className="fruit-image"/>
+          <ProductName name="Lemon" />
+
         </div>
         <div className="fruit-border">
           <img src={Lime} className="fruit-image"/>
+          <ProductName name="Lime" />
+
         </div>
         <div className="fruit-border">
           <img src={Mango} className="fruit-image"/>
+          <ProductName name="Mango" />
+
         </div>
         <div className="fruit-border">
           <img src={Nectarine} className="fruit-image"/>
+          <ProductName name="Nectarine" />
+
         </div>
         <div className="fruit-border">
           <img src={Passion} className="fruit-image"/>
+          <ProductName name="Passion Fruit" />
+
         </div>
         <div className="fruit-border">
           <img src={Pear} className="fruit-image"/>
+          <ProductName name="Pear" />
+
         </div>
         <div className="fruit-border">
           <img src={Pine} className="fruit-image"/>
+          <ProductName name="Pine" />
+
         </div>
         <div className="fruit-border">
           <img src={Prach} className="fruit-image"/>
+          <ProductName name="Prach" />
+
         </div>
         <div className="fruit-border">
           <img src={Straw} className="fruit-image"/>
+          <ProductName name="Strawberry" />
+
         </div>
         <div className="fruit-border">
           <img src={Water} className="fruit-image"/>
+          <ProductName name="Watermelon" />
+
         </div>
       </div>
     )

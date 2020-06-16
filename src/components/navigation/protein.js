@@ -38,7 +38,7 @@ class Protein extends Component {
         </div>
         <div className="fruit-border">
           <img src={Porkchops} className="fruit-image"/>
-          <ProductName name="Prokchops" />
+          <ProductName name="Porkchops" />
         </div>
         <div className="fruit-border">
           <img src={PumpkinSeed} className="fruit-image"/>

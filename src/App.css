@@ -1,0 +1,8 @@
+@import './styles/main.scss';
+
+.app {
+  color: red;
+}
+  .title {
+    color: red;
+  }

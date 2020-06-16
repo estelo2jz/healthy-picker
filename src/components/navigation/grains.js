@@ -17,39 +17,39 @@ class Grains extends Component {
     return (
       <div className="fruit-container">
         <div className="fruit-border">
-          <img src={Bagel} className="fruit-image" />
+          <img src={Bagel} className="fruit-image"  alt=""/>
           <ProductName name="Bagel" />
         </div>
         <div className="fruit-border">
-          <img src={Bread} className="fruit-image"/>
+          <img src={Bread} className="fruit-image" alt=""/>
           <ProductName name="Bread" />
         </div>
         <div className="fruit-border">
-          <img src={Cereal} className="fruit-image"/>
+          <img src={Cereal} className="fruit-image" alt=""/>
           <ProductName name="Cereal" />
         </div>
         <div className="fruit-border">
-          <img src={Creacker} className="fruit-image"/>
+          <img src={Creacker} className="fruit-image" alt=""/>
           <ProductName name="Crackers" />
         </div>
         <div className="fruit-border">
-          <img src={Crosant} className="fruit-image"/>
+          <img src={Crosant} className="fruit-image" alt=""/>
           <ProductName name="Crossant" />
         </div>
         <div className="fruit-border">
-          <img src={Granola} className="fruit-image"/>
+          <img src={Granola} className="fruit-image" alt=""/>
           <ProductName name="Granola" />
         </div>
         <div className="fruit-border">
-          <img src={Macaroni} className="fruit-image"/>
+          <img src={Macaroni} className="fruit-image" alt=""/>
           <ProductName name="Macaroni" />
         </div>
         <div className="fruit-border">
-          <img src={Oatmeal} className="fruit-image"/>
+          <img src={Oatmeal} className="fruit-image" alt=""/>
           <ProductName name="Oatmeal" />
         </div>
         <div className="fruit-border">
-          <img src={Rice} className="fruit-image"/>
+          <img src={Rice} className="fruit-image" alt=""/>
           <ProductName name="Rice" />
         </div>
       </div>

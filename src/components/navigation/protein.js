@@ -17,43 +17,43 @@ class Protein extends Component {
     return (
       <div className="fruit-container">
         <div className="fruit-border">
-          <img src={Beef} className="fruit-image" />
+          <img src={Beef} className="fruit-image" alt="beef" />
           <ProductName name="Beef" />
         </div>
         <div className="fruit-border">
-          <img src={Chicken} className="fruit-image"/>
+          <img src={Chicken} className="fruit-image" alt=""/>
           <ProductName name="Chicken" />
         </div>
         <div className="fruit-border">
-          <img src={Eggs} className="fruit-image"/>
+          <img src={Eggs} className="fruit-image" alt=""/>
           <ProductName name="Eggs" />
         </div>
         <div className="fruit-border">
-          <img src={Lentils} className="fruit-image"/>
+          <img src={Lentils} className="fruit-image" alt=""/>
           <ProductName name="Lentils" />
         </div>
         <div className="fruit-border">
-          <img src={Parmesan} className="fruit-image"/>
+          <img src={Parmesan} className="fruit-image" alt=""/>
           <ProductName name="Parmesan" />
         </div>
         <div className="fruit-border">
-          <img src={Porkchops} className="fruit-image"/>
+          <img src={Porkchops} className="fruit-image" alt=""/>
           <ProductName name="Porkchops" />
         </div>
         <div className="fruit-border">
-          <img src={PumpkinSeed} className="fruit-image"/>
+          <img src={PumpkinSeed} className="fruit-image" alt=""/>
           <ProductName name="Pumpkin Seed" />
         </div>
         <div className="fruit-border">
-          <img src={Tofu} className="fruit-image"/>
+          <img src={Tofu} className="fruit-image" alt=""/>
           <ProductName name="Tofu" />
         </div>
         <div className="fruit-border">
-          <img src={Tuna} className="fruit-image"/>
+          <img src={Tuna} className="fruit-image" alt=""/>
           <ProductName name="Tuna" />
         </div>
         <div className="fruit-border">
-          <img src={Yogurt} className="fruit-image"/>
+          <img src={Yogurt} className="fruit-image" alt=""/>
           <ProductName name="Yogurt" />
         </div>
       </div>

@@ -30,105 +30,105 @@ class Fruits extends Component {
     return (
       <div className="fruit-container">
         <div className="fruit-border">
-          <img src={Apple} className="fruit-image" />
+          <img src={Apple} className="fruit-image"  alt=""/>
           <ProductName name="Apple" />
         </div>
         <div className="fruit-border">
-          <img src={Apricot} className="fruit-image"/>
+          <img src={Apricot} className="fruit-image" alt=""/>
           <ProductName name="Apricot" />
         </div>
         <div className="fruit-border">
-          <img src={Avocado} className="fruit-image"/>
+          <img src={Avocado} className="fruit-image" alt=""/>
           <ProductName name="Avocado" />
 
         </div>
         <div className="fruit-border">
-          <img src={Banana} className="fruit-image"/>
+          <img src={Banana} className="fruit-image" alt=""/>
           <ProductName name="Banana" />
 
         </div>
         <div className="fruit-border">
-          <img src={Blackberry} className="fruit-image"/>
+          <img src={Blackberry} className="fruit-image" alt=""/>
           <ProductName name="Blackberry" />
 
         </div>
         <div className="fruit-border">
-          <img src={Blueberry} className="fruit-image"/>
+          <img src={Blueberry} className="fruit-image" alt=""/>
           <ProductName name="Blueberry" />
 
         </div>
         <div className="fruit-border">
-          <img src={Cherry} className="fruit-image"/>
+          <img src={Cherry} className="fruit-image" alt=""/>
           <ProductName name="Cherry" />
 
         </div>
         <div className="fruit-border">
-          <img src={Coconut} className="fruit-image"/>
+          <img src={Coconut} className="fruit-image" alt=""/>
           <ProductName name="Coconut" />
 
         </div>
         <div className="fruit-border">
-          <img src={Fig} className="fruit-image"/>
+          <img src={Fig} className="fruit-image" alt=""/>
           <ProductName name="Fig" />
 
         </div>
         <div className="fruit-border">
-          <img src={Kiwi} className="fruit-image"/>
+          <img src={Kiwi} className="fruit-image" alt=""/>
           <ProductName name="Kiwi" />
 
         </div>
         <div className="fruit-border">
-          <img src={Leche} className="fruit-image"/>
+          <img src={Leche} className="fruit-image" alt=""/>
           <ProductName name="Leche" />
 
         </div>
         <div className="fruit-border">
-          <img src={Lemon} className="fruit-image"/>
+          <img src={Lemon} className="fruit-image" alt=""/>
           <ProductName name="Lemon" />
 
         </div>
         <div className="fruit-border">
-          <img src={Lime} className="fruit-image"/>
+          <img src={Lime} className="fruit-image" alt=""/>
           <ProductName name="Lime" />
 
         </div>
         <div className="fruit-border">
-          <img src={Mango} className="fruit-image"/>
+          <img src={Mango} className="fruit-image" alt=""/>
           <ProductName name="Mango" />
 
         </div>
         <div className="fruit-border">
-          <img src={Nectarine} className="fruit-image"/>
+          <img src={Nectarine} className="fruit-image" alt=""/>
           <ProductName name="Nectarine" />
 
         </div>
         <div className="fruit-border">
-          <img src={Passion} className="fruit-image"/>
+          <img src={Passion} className="fruit-image" alt=""/>
           <ProductName name="Passion Fruit" />
 
         </div>
         <div className="fruit-border">
-          <img src={Pear} className="fruit-image"/>
+          <img src={Pear} className="fruit-image" alt=""/>
           <ProductName name="Pear" />
 
         </div>
         <div className="fruit-border">
-          <img src={Pine} className="fruit-image"/>
+          <img src={Pine} className="fruit-image" alt=""/>
           <ProductName name="Pine" />
 
         </div>
         <div className="fruit-border">
-          <img src={Prach} className="fruit-image"/>
+          <img src={Prach} className="fruit-image" alt=""/>
           <ProductName name="Prach" />
 
         </div>
         <div className="fruit-border">
-          <img src={Straw} className="fruit-image"/>
+          <img src={Straw} className="fruit-image" alt=""/>
           <ProductName name="Strawberry" />
 
         </div>
         <div className="fruit-border">
-          <img src={Water} className="fruit-image"/>
+          <img src={Water} className="fruit-image" alt=""/>
           <ProductName name="Watermelon" />
 
         </div>
